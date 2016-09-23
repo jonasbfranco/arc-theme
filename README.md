@@ -62,6 +62,13 @@ To build the theme you'll need
 * `libgtk-3-dev` for Debian based distros or `gtk3-devel` for RPM based distros
 * `git` if you want to clone the source directory
 
+
+Pre-step
+Make sure to install all build dependencies,
+If dependencies not installed, you can use command below
+sudo apt-get install autoconf automake pkg-config libgtk-3-dev (Ubuntu and Derivatives)
+
+
 If your distributions doesn't ship separate development packages you just need GTK 3 instead of the `-dev` packages.
 
 Install the theme with the following commands
